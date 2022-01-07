@@ -15,7 +15,5 @@ class Sum{
         int b=30;
         int c=40;
         System.out.print(a+b+c);
-        int y;
-        y=10;
     }
 }
