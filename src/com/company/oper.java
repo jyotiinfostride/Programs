@@ -7,5 +7,7 @@ public class oper {
         System.out.println("value of a:"+a);
         result1= ++a;
         System.out.println("After increment:"+result1);
+        System.out.println("value of b:"+b);
+
     }
 }
