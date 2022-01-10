@@ -8,6 +8,8 @@ public class oper {
         result1= ++a;
         System.out.println("After increment:"+result1);
         System.out.println("value of b:"+b);
+        result2= --b;
+        System.out.println("After decrement:"+result2);
 
     }
 }
