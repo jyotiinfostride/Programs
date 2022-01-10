@@ -1,16 +1,11 @@
 package com.company;
 
 public class oper {
-    public static void main(String[]args)
-    {
-        int a=20, b=10, c=30, results;
-        int result = (a > b)
-                ? (a > c)
-                ? a
-                : c
-                : (b > c)
-                ? b
-                : c;
-        System.out.println("Max of three numbers=" + result);
+    public static void main(String[]args){
+        int a=12, b=12;
+        int result1, result2;
+        System.out.println("value of a:"+a);
+        result1= ++a;
+        System.out.println("After increment:"+result1);
     }
 }
